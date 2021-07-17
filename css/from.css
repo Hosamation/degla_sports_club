@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.register-form {
+  background-color: #CCC;
+  padding: 50px 20px 30px;
+}
+fieldset {  
+  background-color: #EEE;
+  max-width: 980px;
+}
+fieldset legend {
+  background-color: #FFF;
+  padding: 5px;
+  text-align: center;
+}
+fieldset legend + p {
+  margin: 20px;
+  text-align: center;
+}
+fieldset form  section{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+fieldset form div {
+  /* width: calc(50% - 60px); */
+  margin: 10px;
+  /* background-color: red; */
+}
+fieldset div label {
+  display: block;
+  margin: 10px 0;
+}
+fieldset form div input {
+  padding: 5px;
+}
+fieldset form div input[type="checkbox"] {
+  margin: 5px;
+}
+fieldset form div input:checkbox {
+  margin: 5px;
+}
+fieldset form div textarea {
+  padding: 5px;
+}
